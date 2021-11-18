@@ -1,8 +1,18 @@
 .card{
     text-align: center;
-    box-shadow: black ;
+}
+.col{
+    margin-right: 40px;
+}
+i{
+    margin-right: 8px;
+}
+.card-body:hover{
+    background-color: rgb(187,50,59);
+
+}
+.col:hover{
+    color: white;
 }
 
-.col{
-    margin-right: 10px;
-}
+

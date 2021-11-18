@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-<div class="card-group mt-5 ">
+<div class="card-group mt-5">
     <!------------------------------- CARD-1 --------------------------------------->
     <div class="col">
     <div class="card">
@@ -22,7 +22,7 @@
                 Item 1 super super<br><hr>
                 Item 1 super super<br>
             </p><br>
-            <a href="#" class="btn btn-primary mb-4">Button</a>
+            <a href="#" class="btn btn-danger"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ACHETER</a>
         </div>
     </div>
     </div>
@@ -38,7 +38,7 @@
             Item 1 super super<br><hr>
             Item 1 super super<br>
             </p><br>
-            <a href="#" class="btn btn-primary">Button</a>
+            <a href="#" class="btn btn-danger"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ACHETER</a>
         </div>
     </div>
     </div>
@@ -54,7 +54,7 @@
             Item 1 super super<br><hr>
             Item 1 super super<br>
             </p><br>
-            <a href="#" class="btn btn-primary">Button</a>
+            <a href="#" class="btn btn-danger"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ACHETER</a>
         </div>
     </div>
     </div>
@@ -71,7 +71,7 @@
             Item 1 super super<br><hr>
             Item 1 super super<br>
             </p><br>
-            <a href="#" class="btn btn-primary">Button</a>
+            <a href="#" class="btn btn-danger"><i class="fa fa-shopping-cart" aria-hidden="true"></i>ACHETER</a>
     </div>
     </div>
     </div>
@@ -80,7 +80,16 @@
 </div>
 
 
+<script>
+    const allCards = document.querySelectorAll(".card-body");
+    const btn = document.querySelector("a");
+    allCards.forEach(function (card){
+        card.addEventListener("mouseover", function (){
+            btn.style.color = "black";
+        })
+    });
 
+</script>
 <script src="https://kit.fontawesome.com/2e5a7d09f6.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
