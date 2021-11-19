@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48936104-7346-4f71-aff6-e20264d77c6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projet-1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet-2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projet-2/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637090868347</updated>
       <workItem from="1637090870915" duration="6825000" />
-      <workItem from="1637266177183" duration="6116000" />
+      <workItem from="1637266177183" duration="6555000" />
+      <workItem from="1637352219866" duration="2585000" />
     </task>
     <servers />
   </component>
@@ -80,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637270257011">
